@@ -1,0 +1,22 @@
+#start#
+#ask for number#
+n=int(input('enter day number 1-7: '))
+#determine day and give name#
+if n==1:
+  print('Sunday')
+elif n==2:
+  print('Monday')
+elif n==3:
+  print('Tuesday')
+elif n==4:
+  print('Wendsday')
+elif n==5:
+  print('Thursday')
+elif n==6:
+  print('Friday')
+elif n==7:
+  print('Saturday')
+elif n>7:
+  print('Invalid input')
+elif n<1:
+  print('Invalid input')
