@@ -1,0 +1,16 @@
+#start#
+#get rect 1#
+rl1=int(input('Rectangle 1 length: '))
+rw1=int(input('Rectangle 1 width: '))
+ra1=rl1*rw1
+#get rect 2#
+rl2=int(input('Rectangle 2 lenght: '))
+rw2=int(input('Rectangle 2 Width: '))
+ra2=rl2*rw2
+#compare areas#
+if ra1==ra2:
+  print('The areas are the smae')
+elif ra1>ra2:
+  print("Rectangle 1's area is larger then rectangle 2's area")
+elif ra2>ra1:
+  print("Rectangle 2's area is larger then rectangle 1's area")
