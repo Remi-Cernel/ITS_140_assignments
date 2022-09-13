@@ -1,0 +1,23 @@
+#start#
+#barage of questions that will make people mad#
+print('Restart your computer')
+a=input('Did it work? y/n: ')
+if a=='y':
+  print('Congratulations!! your internet is working.')
+else:
+  print('Restart your router')
+  b=input('Did it work? y/n: ')
+  if b=='y':
+    print('Congratulations!! your internet is working.')
+  else:
+    print('Make sure all cables are connected')
+    c=input('Did it work? y/n: ')
+    if c=='y':
+      print('Congratulations!! your internet is working.')
+    else:
+      print('Try to move your  router to a different location')
+      d=input('Did it work? y/n: ')
+      if d=='y':
+        print('Congratulations!! your internet is working.')
+      else:
+        print('You might need a new router.')
