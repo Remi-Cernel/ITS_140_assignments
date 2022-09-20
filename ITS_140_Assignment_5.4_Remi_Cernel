@@ -1,0 +1,25 @@
+#start#
+import random
+play_again='y'
+while play_again=='y':
+  rolls=0
+  while rolls<3:
+    roll_number=rolls+1
+    print('Roll number',roll_number)
+    a=int(input('What do you think you will roll? (1-12) :'))
+    Die_1 = random.randint(1, 6)
+    print('Die 1',Die_1)
+    Die_2 = random.randint(1, 6)
+    print('Die 2',Die_2)
+    DieTotal=Die_1+Die_2
+    print('Die total', DieTotal)
+    if DieTotal==a:
+      print('You Won!')
+      rolls=3
+    elif DieTotal!=a:
+        print('You Lost')
+        print('re-rolling dice')
+        rolls=rolls+1
+    if rolls==3:
+      print('No more rolls')
+  play_again=input('Play again? y/n :')
