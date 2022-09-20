@@ -1,0 +1,11 @@
+#start#
+print('Tuition costs for the next ten years with inflation included:')
+cost=15000
+for i in range(10):
+    i=int(input('What is the % of incerease for this year? '))
+    ii=i/100
+    cost=ii*cost+cost
+    costt = str(round(cost, 2))
+    print('Current year cost is:',costt)
+else:
+  print('end')
