@@ -1,0 +1,34 @@
+#start#
+print('Tuition costs for the next ten years with increase included:')
+#tuition math#
+i=int(input('What is the inflation rate? : '))
+ii=i/100
+y1=15000
+print('Year 1 $',y1)
+y2=ii*y1+y1
+y21 = str(round(y2, 2))
+print('Year 2 $',y21)
+y3=ii*y2+y2
+y31 = str(round(y3, 2))
+print('Year 3 $',y31)
+y4=ii*y3+y3
+y41 = str(round(y4, 2))
+print('Year 4 $',y41)
+y5=ii*y4+y4
+y51 = str(round(y5, 2))
+print('Year 5 $',y51)
+y6=ii*y5+y5
+y61 = str(round(y6, 2))
+print('Year 6 $',y61)
+y7=ii*y6+y6
+y71 = str(round(y7, 2))
+print('Year 7 $',y71)
+y8=ii*y7+y7
+y81 = str(round(y8, 2))
+print('Year 8 $',y81)
+y9=ii*y8+y8
+y91 = str(round(y9, 2))
+print('Year 9 $',y91)
+y10=ii*y9+y9
+y101 = str(round(y10, 2))
+print('Year 10 $',y101)
