@@ -1,0 +1,6 @@
+#start#
+import math
+def average(a,b,c,d,e):
+  x=(a,b,c,d,e,)
+  calc_average=math.fsum(x)/5
+  return calc_average
