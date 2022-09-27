@@ -1,0 +1,14 @@
+#start#
+import math
+import calc_average
+import letter_grade
+print('Please input your five (5) test scores')
+a=int(input('test 1: '))
+b=int(input('test 2: '))
+c=int(input('test 3: '))
+d=int(input('test 4: '))
+e=int(input('test 5: '))
+calc_average=calc_average.average(a,b,c,d,e,)
+print('Your agverage test score is: ',calc_average)
+grade=letter_grade.grade(calc_average)
+print(grade)
