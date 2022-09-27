@@ -1,0 +1,14 @@
+#start#
+def grade(calc_average):
+  if calc_average>=90:
+    grade='Your letter grade is A'
+  elif calc_average>=80:
+    grade='Your letter grade is B'
+  elif calc_average>=70:
+    grade='Your letter grade is C'
+  elif calc_average>=60:
+    grade='Your letter grade is D'
+  elif calc_average<=60:
+    grade='Your letter grade is F'
+  return grade
+    
