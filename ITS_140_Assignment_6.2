@@ -1,0 +1,24 @@
+#start#
+import math
+x=int(input('what function do you want to use? \n cos (1) \n sin (2) \n tan (3) \n log10 (4) \n sqrt (5) \n hypot (6) \n'))
+if x==1:
+  a=int(input('What is your "a" value?'))
+  print('Your value is: ',math.cos(a))
+elif x==2:
+  a=int(input('What is your "a" value?'))
+  print('Your value is: ',math.sin(a))
+elif x==3:
+  a=int(input('What is your "a" value?'))
+  print('Your value is: ',math.tan(a))
+elif x==4:
+  a=int(input('What is your "a" value?'))
+  print('Your value is: ',math.log10(a))
+elif x==5:
+  a=int(input('What is your "a" value?'))
+  print('Your value is: ',math.sqrt(a))
+elif x==6:
+  a=int(input('What is your "a" value?'))
+  b=int(input('What is your "b" value?'))
+  print('Your value is: ',math.hypot(a,b))
+elif x<0 or x>6:
+  print('invalid input')
