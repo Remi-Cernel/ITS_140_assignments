@@ -1,0 +1,18 @@
+#start#
+import rectangle
+import triangle
+import circle
+x=int(input('what shape do you want to calculate? \n Rectangle (1) \n Triangle (2) \n Circle (3) \n'))
+if x==1:
+  a=int(input('What is the length? '))
+  b=int(input('What is the width? '))
+  rectangle.a_p(a,b)
+elif x==2:
+  a=int(input('What is the first length? '))
+  b=int(input('What is the second length? '))
+  triangle.a_p(a,b)
+elif x==3:
+  a=int(input('What is the radius? '))
+  circle.a_p(a)
+elif x>3 or x<1:
+  print('invalid input')
