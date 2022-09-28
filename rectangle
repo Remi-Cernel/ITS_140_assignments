@@ -1,0 +1,5 @@
+#start#
+import math
+def a_p(a,b):
+  rectangle=print('The area is: ',a*b,'\n The perimiter is: ',a+a+b+b)
+  return rectangle
