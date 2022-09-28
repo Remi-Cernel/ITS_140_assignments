@@ -1,0 +1,5 @@
+#start#
+import math
+def a_p(a):
+  circle=print('The area is: ',math.pi*a*a,'\n The perimiter is: ',2*math.pi*a)
+  return circle
