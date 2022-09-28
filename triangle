@@ -1,0 +1,5 @@
+#start#
+import math
+def a_p(a,b):
+  triangle=print('The area is: ',(.5*a)*b,'\n The perimiter is: ',math.hypot(a,b)+a+b)
+  return triangle
