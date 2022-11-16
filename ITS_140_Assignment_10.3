@@ -1,0 +1,25 @@
+#start#
+
+  #setting up the while loop with the dictonary#
+again='y'
+phonebook={}
+  
+  #setting up the file to read and save to#
+
+    #opens the phonebook and reads its contents#
+bookphone=open('phonebook.txt','r')
+phonebook=bookphone.read()
+    #re-opens the phonebook and overwrites for adding new contacts#
+bookphone=open('phonebook.txt','w')
+    #converts the string from the phonebook into dictonary to use the same variable#
+phonebook=eval(phonebook)
+
+  #while loop to add new contacts#
+while again == 'y':
+  phonebook.update({input('Name: '): int(input('Phone Number: '))})
+  again=input('Do you want to add another? (y/n)')
+
+print(phonebook)
+phonebook=str(phonebook)
+bookphone.write(phonebook)
+bookphone.close()
